@@ -25,7 +25,7 @@ def generate_launch_description():
     robot_description = {'robot_description': doc.toxml()}
 
     config_file = PathJoinSubstitution([
-        FindPackageShare('mujoco_robots'),
+        FindPackageShare('mujoco_demo_robot'),
         "config",
         "cart_effort.yaml"
     ])
